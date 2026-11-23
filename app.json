@@ -1,0 +1,37 @@
+{
+  "expo": {
+    "name": "PlanIt Media",
+    "slug": "planit-media-mobile",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "userInterfaceStyle": "dark",
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "za.co.planitmedia.mobile"
+    },
+    "android": {
+      "adaptiveIcon": {
+        "backgroundColor": "#0b0f19",
+        "foregroundImage": "./assets/android-icon-foreground.png",
+        "backgroundImage": "./assets/android-icon-background.png",
+        "monochromeImage": "./assets/android-icon-monochrome.png"
+      },
+      "predictiveBackGestureEnabled": false,
+      "package": "za.co.planitmedia.mobile",
+      "allowBackup": false,
+      "blockedPermissions": [
+        "android.permission.RECORD_AUDIO"
+      ]
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    },
+    "plugins": [
+      "expo-sqlite",
+      "expo-sharing",
+      "expo-secure-store"
+    ],
+    "backgroundColor": "#0b0f19"
+  }
+}

@@ -1,0 +1,71 @@
+# Rename this file to .gitignore after placing it in the repository root.
+
+# Dependencies
+node_modules/
+
+# Expo and generated output
+.expo/
+dist/
+web-build/
+coverage/
+expo-env.d.ts
+
+# Environment and secrets
+.env
+.env.*
+!.env.example
+secrets.properties
+keystore.properties
+google-services.json
+GoogleService-Info.plist
+
+# Signing keys and certificates
+*.jks
+*.p8
+*.p12
+*.pem
+*.key
+*.mobileprovision
+*release*.keystore
+
+# Android local and generated files
+android/local.properties
+android/.gradle/
+android/.kotlin/
+android/.idea/
+android/.cxx/
+android/**/build/
+*.apk
+*.aab
+*.hprof
+*.iml
+*.jsbundle
+
+# iOS generated files
+ios/
+Pods/
+DerivedData/
+*.ipa
+
+# Local databases and application output
+*.db
+*.db-journal
+*.sqlite
+*.sqlite3
+imports/
+exports/
+
+# Editors and operating-system files
+.idea/
+.vscode/
+.DS_Store
+__MACOSX/
+Thumbs.db
+
+# Logs and temporary files
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+*.tsbuildinfo
+*.orig.*
